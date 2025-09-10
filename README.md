@@ -26,6 +26,3 @@ The goal is **end-to-end Infrastructure as Code** — one `terraform apply` to c
   - App URL
 
 ---
-             │ kubelet+    │     │ kubelet+    │
-             │ containerd  │     │ containerd  │
-             └─────────────┘     └─────────────┘
