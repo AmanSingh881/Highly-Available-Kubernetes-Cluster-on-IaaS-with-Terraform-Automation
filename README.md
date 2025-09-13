@@ -5,6 +5,8 @@
 The goal of this project is to create a **self-managed, highly available Kubernetes cluster** on AWS using `kubeadm`.  
 Instead of using **EKS (Elastic Kubernetes Service)**, we will replicate its functionality step by step using AWS building blocks such as **EC2 instances, Auto Scaling Groups (ASG), and Load Balancers**.
 
+![GitOps Workflow](Assets/Kubernetescluster.jpg)
+
 The cluster will be deployed across **multiple Availability Zones (AZs)** to achieve high availability.  
 If a node fails, a new one will be automatically created by the Auto Scaling Group.  
 
